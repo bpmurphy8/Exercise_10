@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="Styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" 
+    crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4f2f284e74.js" 
+    crossorigin="anonymous"></script>
+    <title>Contact Us</title>
+    <link rel="icon" type="image/x-icon" href="https://icon-library.com/images/bb-icon/bb-icon-29.jpg">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm">
+        <div class="container">
+        <img src="Images/BuyBest.png" width="20%" style="padding-right: 5%;">
+            <a id="navbarlink" class="navbar-brand" href="Ecommerce_Site_Home.html"><i class="fa-solid fa-house"></i> Home</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a id="navbarlink" class="nav-link" href="Ecommerce_Site_About.html"><i class="fa-solid fa-bars"></i> About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="navbarlink" class="nav-link" href="Ecommerce_Site_Products.html"><i class="fa-solid fa-info"></i> Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="navbarlink" class="nav-link" href="Ecommerce_Site_Contact.html"><i class="fa-solid fa-address-card"></i> Contact Us</a>
+                    </li>
+                </ul>
+  
+            </div>
+        </div>
+    </nav>
+    <br><br><br><br>
+
+    <!-- <section id="ContactMeForm" style="background-color: #ee6c4d; color: #293241">
+        
+            <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"/><br>
+            <label for="message">Message:</label><br>
+            <textarea rows="5" cols="35" type="text" id="message" name="message"></textarea><br>
+            <input type="submit" value="Submit"/>
+            <br><br><br>
+            </form>
+    </section> -->
+    
+
+    <div id="contactformdiv" class="container">
+        <br>
+        <h1><b>Submit the form below:</b></h1>
+        <form id="contactform" action="action_page.php">
+            <div id="p">
+        <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your first name...">
+            </div>
+            
+            <div id="p">    
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+            </div>
+            
+            <div id="p">
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+                <option value="india">India</option>
+            </select>
+            </div>
+            
+            <div id="p">
+            <label for="subject">Your Message:</label>
+            <textarea id="subject" name="subject" placeholder="Please write your message here..." style="height: 200px"></textarea>
+            <br>
+            <button id="submitbutton" type="submit" class="btn">Submit</button>
+            </div>
+        </form>
+        <br>
+    </div>
+
+    
+    <br><br><br><br><br>
+
+    <div class="container-fluid" id="footer">
+    <div class="footer">
+        <div class="row text-center">
+            <div class="col-xs-3">
+                <h7> 2023 BuyBest&copy; </h7>
+            </div>
+        </div>
+   </div>
+</div>
+</body>
+</html>
